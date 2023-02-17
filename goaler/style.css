@@ -1,17 +1,36 @@
 
 html{
-box-sizing: border-box;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    cursor: pointer;
 }
-body{
-    min-height: 100vh;
-}
-.HEADER-CONTAINER{
-    font-size: calc(2000rem+4.5vw);
+@media screen and (max-width: 1200px)
+{
+.HEADER-CONTAINER
+    {
+        width:100%;
     }
-    
+}
+.image-container
+{
+width: 100%;
+}
+.text-container{
+    width: 100%;
+}
+
     
 
-h1{
+body{
+    min-height: 100vh;
+    width: 100%;
+    background:white;
+    display:flex;}
+    
+
+
+    h1{
 position: relative;
 width: 383px;
 height: 120px;
